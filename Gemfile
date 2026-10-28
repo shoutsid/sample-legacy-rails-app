@@ -38,7 +38,6 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem 'gocardless', "~> 1.6.1"
-gem 'localtunnel', "~> 0.3"
 
 group :test do
   gem "mocha", :require => false
