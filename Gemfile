@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-ruby "1.9.3"
+ruby ">= 1.9.3"
 
-gem 'rails', '3.2.9'
+gem 'rails', '3.2.22.5'
 
 # Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+# gem 'rails', :git => 'https://github.com/rails/rails.git'
 
 gem 'sqlite3'
 
@@ -44,3 +44,7 @@ gem 'gocardless', "~> 1.6.1"
 group :test do
   gem "mocha", :require => false
 end
+gem "loofah", "~> 2.0.3"
+gem "mimemagic", "= 0.3.9"
+gem "multipart-post", "~> 1.1.5"
+gem "execjs", "~> 1.4.0"
