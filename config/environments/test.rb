@@ -29,8 +29,9 @@ SampleRailsApp::Application.configure do
   # ActionMailer::Base.deliveries array.
   config.action_mailer.delivery_method = :test
 
-  # Raise exception on mass assignment protection for Active Record models
-  config.active_record.mass_assignment_sanitizer = :strict
+  # Do not eager load code on boot. This avoids loading your whole application
+  # just for the purpose of running a single test.
+  config.eager_load = false
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
