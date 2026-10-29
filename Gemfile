@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby ">= 1.9.3"
 
-gem 'rails', '3.2.9'
+gem 'rails', '4.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'https://github.com/rails/rails.git'
@@ -13,8 +13,8 @@ gem 'sqlite3'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem "sass-rails", "~> 4.0.5"
+  gem "coffee-rails", "~> 4.2.2"
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -47,3 +47,4 @@ end
 gem "mimemagic", "= 0.3.9"
 gem "multipart-post", "~> 1.2.0"
 gem "execjs", "~> 1.4.0"
+gem "loofah", "~> 2.0.3"
