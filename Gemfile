@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby ">= 1.9.3"
 
-gem 'rails', '4.1.16'
+gem 'rails', '4.2.11.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'https://github.com/rails/rails.git'
@@ -49,3 +49,4 @@ gem "mimemagic", "= 0.3.9"
 gem "multipart-post", "~> 1.2.0"
 gem "execjs", "~> 1.4.0"
 gem "jquery-ui-rails", "~> 6.0"
+gem "responders", "~> 2.0"
