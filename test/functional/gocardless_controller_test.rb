@@ -9,7 +9,7 @@ class GocardlessControllerTest < ActionController::TestCase
   end
 
   test "should post buy" do
-    post :buy, {
+    post :buy, params: {
       amount: 10,
       name: "Purchase"
     }
@@ -20,7 +20,7 @@ class GocardlessControllerTest < ActionController::TestCase
   end
 
   test "should post subscribe" do
-    post :subscribe, {
+    post :subscribe, params: {
       amount: 10,
       interval_unit: 1,
       interval_length: "month",
@@ -33,7 +33,7 @@ class GocardlessControllerTest < ActionController::TestCase
   end
 
   test "should post preauth" do
-    post :preauth, {
+    post :preauth, params: {
       amount: 100,
       interval_length: 3,
       interval_unit: "month",
