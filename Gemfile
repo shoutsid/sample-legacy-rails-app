@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby ">= 1.9.3"
 
-gem 'rails', '5.1.7'
+gem 'rails', '5.2.8.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'https://github.com/rails/rails.git'
@@ -55,3 +55,4 @@ gem "bigdecimal", "~> 1.4.2"
 gem "minitest", "~> 5.14.4"
 gem 'bootsnap', "= 1.4.5"
 
+gem "thor", "~> 1.2.0"
