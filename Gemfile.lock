@@ -86,7 +86,7 @@ GEM
     bootsnap (1.4.9)
       msgpack (~> 1.0)
     builder (3.3.0)
-    cgi (0.5.2)
+    cgi (0.1.0.2)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0)
@@ -282,6 +282,7 @@ PLATFORMS
 DEPENDENCIES
   bigdecimal (~> 1.4.2)
   bootsnap (~> 1.4.9)
+  cgi (= 0.1.0.2)
   coffee-rails (~> 4.2.2)
   connection_pool (~> 2.5)
   execjs (~> 1.4.0)
