@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby ">= 1.9.3"
 
-gem 'rails', '8.1.0'
+gem 'rails', '8.1.4'
 gem 'json', '~> 2.7'
 
 # Bundle edge Rails instead:
