@@ -2,18 +2,18 @@ source 'https://rubygems.org'
 
 ruby ">= 1.9.3"
 
-gem 'rails', '4.2.11.3'
+gem 'rails', '5.0.7.2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'https://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.3.13'
 
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem "sass-rails", "~> 4.0.5"
+  gem "sass-rails", "= 5.0.7"
   gem "coffee-rails", "~> 4.2.2"
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -39,7 +39,7 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-gem 'gocardless', "~> 1.6.1"
+gem "gocardless", "~> 1.13.0"
 
 group :test do
   gem "mocha", :require => false
@@ -50,3 +50,6 @@ gem "multipart-post", "~> 1.2.0"
 gem "execjs", "~> 1.4.0"
 gem "jquery-ui-rails", "~> 6.0"
 gem "responders", "~> 2.0"
+gem "ffi", "~> 1.16.0"
+gem "bigdecimal", "~> 1.4.2"
+gem "minitest", "~> 5.14.4"
