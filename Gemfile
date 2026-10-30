@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby ">= 1.9.3"
 
-gem 'rails', '6.0.6.1'
+gem 'rails', '6.1.7.10'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'https://github.com/rails/rails.git'
@@ -61,3 +61,4 @@ gem "globalid", "~> 1.1.0"
 gem "sprockets", "~> 3.7"
 gem "zeitwerk", "~> 2.6.0"
 gem "nokogiri", "~> 1.12.0"
+gem "rake", ">= 12.2"
