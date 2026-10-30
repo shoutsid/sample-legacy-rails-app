@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby ">= 1.9.3"
 
-gem 'rails', '7.0.10'
+gem 'rails', '7.1.6'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'https://github.com/rails/rails.git'
@@ -42,7 +42,7 @@ gem 'jquery-rails'
 gem "gocardless", "~> 1.13.0"
 
 group :test do
-  gem "mocha", :require => false
+  gem "mocha", "~> 2.1"
 end
 gem "loofah", "~> 2.22"
 gem "mimemagic", "= 0.3.9"
@@ -52,7 +52,7 @@ gem "jquery-ui-rails", "~> 6.0"
 gem "responders", "~> 3.1"
 gem "ffi", "~> 1.16.0"
 gem "bigdecimal", "~> 1.4.2"
-gem "minitest", "~> 5.14.4"
+gem "minitest", "~> 5.25.0"
 gem "bootsnap", "~> 1.4.9"
 
 gem "thor", "~> 1.2.0"
@@ -60,5 +60,9 @@ gem "sprockets-rails", "~> 3.4.0"
 gem "globalid", "~> 1.1.0"
 gem "sprockets", "~> 3.7"
 gem "zeitwerk", "~> 2.6.0"
-gem "nokogiri", "~> 1.12.0"
+gem "nokogiri", "~> 1.15.7"
 gem "rake", ">= 12.2"
+gem "cgi", "0.1.0.2"
+gem "prism", "~> 1.0"
+gem "connection_pool", "~> 2.5"
+gem "rdoc", "~> 6.3.0"
