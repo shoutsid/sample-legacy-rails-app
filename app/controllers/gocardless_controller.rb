@@ -72,6 +72,6 @@ class GocardlessController < ApplicationController
       # log the error
     end
 
-    render nothing: true, status: 200
+    head :ok
   end
 end
