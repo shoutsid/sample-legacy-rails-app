@@ -7,7 +7,7 @@ gem 'rails', '7.2.4'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'https://github.com/rails/rails.git'
 
-gem "sqlite3", "~> 1.4.0"
+gem "sqlite3", "~> 2.1"
 
 
 # Gems used only for assets and not required
@@ -51,7 +51,7 @@ gem "execjs", "~> 1.4.0"
 gem "jquery-ui-rails", "~> 6.0"
 gem "responders", "~> 3.1"
 gem "ffi", "~> 1.16.0"
-gem "bigdecimal", "~> 1.4.2"
+gem "bigdecimal", "~> 3.1"
 gem "minitest", "~> 5.25.0"
 gem "bootsnap", "~> 1.26"
 
@@ -66,3 +66,4 @@ gem "cgi", "0.1.0.2"
 gem "prism", "~> 1.0"
 gem "connection_pool", "~> 2.5"
 gem "rdoc", "~> 6.3.0"
+gem "sass", "~> 3.7"
